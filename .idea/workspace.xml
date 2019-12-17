@@ -29,15 +29,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1TR67MQSjrmzNc0LkOuDcAQo6ny" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -56,7 +61,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.successregister">
+  <component name="RunManager" selected="TestNG.GoogleTest">
+    <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Google.GoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="emptyemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,10 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondtestcase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="page" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="secondtestcase" />
+      <option name="MAIN_CLASS_NAME" value="Google.page" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,21 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="successregister.goodemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="successregister" />
-      <option name="METHOD_NAME" value="goodemailtest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wrongemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+    <configuration name="wrongemailtest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="wrongemailtest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -116,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.successregister" />
+        <item itemvalue="TestNG.GoogleTest" />
+        <item itemvalue="TestNG.page" />
         <item itemvalue="TestNG.emptyemailtest" />
-        <item itemvalue="TestNG.wrongemailtest" />
-        <item itemvalue="TestNG.successregister.goodemailtest" />
-        <item itemvalue="TestNG.secondtestcase" />
+        <item itemvalue="TestNG.wrongemailtest (1)" />
+        <item itemvalue="TestNG.successregister" />
       </list>
     </recent_temporary>
   </component>
@@ -142,12 +156,36 @@
       <workItem from="1573505429570" duration="11827000" />
       <workItem from="1573517389315" duration="1761000" />
       <workItem from="1573547005335" duration="560000" />
-      <workItem from="1574583155832" duration="4203000" />
+      <workItem from="1574583155832" duration="4275000" />
+      <workItem from="1574618852059" duration="341000" />
+      <workItem from="1574619377427" duration="179000" />
+      <workItem from="1574620521945" duration="1319000" />
+      <workItem from="1574624028284" duration="367000" />
+      <workItem from="1574625128167" duration="2790000" />
+      <workItem from="1576007124489" duration="1287000" />
+      <workItem from="1576009317447" duration="587000" />
+      <workItem from="1576419658201" duration="106000" />
+      <workItem from="1576419880064" duration="2279000" />
+      <workItem from="1576429811952" duration="3352000" />
+      <workItem from="1576605834505" duration="3706000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$successregister.ic" NAME="successregister Coverage Results" MODIFIED="1573516496467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
