@@ -29,8 +29,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1TR67MQSjrmzNc0LkOuDcAQo6ny" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,14 +50,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.wrongemailtest">
+  <component name="RunManager" selected="TestNG.SuccessRegisterTest">
+    <configuration name="EmptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmptyEmailTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -64,6 +79,17 @@
       </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Google.GoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuccessRegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuccessRegisterTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,38 +114,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emptyemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WrongEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="emptyemailtest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="page" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Google.page" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wrongemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="wrongemailtest" />
+      <option name="MAIN_CLASS_NAME" value="WrongEmailTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.wrongemailtest" />
+        <item itemvalue="TestNG.SuccessRegisterTest" />
+        <item itemvalue="TestNG.EmptyEmailTest" />
+        <item itemvalue="TestNG.WrongEmailTest" />
         <item itemvalue="TestNG.Test99GuruLogin" />
         <item itemvalue="TestNG.GoogleTest" />
-        <item itemvalue="TestNG.page" />
-        <item itemvalue="TestNG.emptyemailtest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,11 +197,48 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="151" key="SettingsEditor" timestamp="1578926777066">
+    <state x="552" y="177" key="#Notifications" timestamp="1578927415989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578926777066" />
+    <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578927415989" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578928809044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578928809044" />
+    <state x="664" y="202" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1578930720818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="202" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578930720818" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578936283257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578936283257" />
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1578938116458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578938116458" />
+    <state width="1876" height="186" key="GridCell.Tab.0.center" timestamp="1578938116458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578938116458" />
+    <state width="1876" height="186" key="GridCell.Tab.0.left" timestamp="1578938116458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578938116458" />
+    <state width="1876" height="186" key="GridCell.Tab.0.right" timestamp="1578938116458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578938116458" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1578927557621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578927557621" />
     <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1578824169138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
