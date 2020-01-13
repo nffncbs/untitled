@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d8cddd-9d07-4652-a292-83336ff6bc1a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +34,11 @@
   </component>
   <component name="ProjectId" id="1TR67MQSjrmzNc0LkOuDcAQo6ny" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,19 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.GoogleTest">
+  <component name="RunManager" selected="TestNG.wrongemailtest">
     <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -72,6 +64,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Google.GoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test99GuruLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test.Test99GuruLogin" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,18 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="successregister" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="wrongemailtest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="successregister" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wrongemailtest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="wrongemailtest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -130,13 +129,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.wrongemailtest" />
+        <item itemvalue="TestNG.Test99GuruLogin" />
         <item itemvalue="TestNG.GoogleTest" />
         <item itemvalue="TestNG.page" />
         <item itemvalue="TestNG.emptyemailtest" />
-        <item itemvalue="TestNG.wrongemailtest (1)" />
-        <item itemvalue="TestNG.successregister" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -168,6 +179,7 @@
       <workItem from="1576419880064" duration="2279000" />
       <workItem from="1576429811952" duration="3352000" />
       <workItem from="1576605834505" duration="3706000" />
+      <workItem from="1576943591474" duration="7673000" />
     </task>
     <servers />
   </component>
@@ -186,6 +198,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1578824169138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="118" width="606" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578824169138" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$successregister.ic" NAME="successregister Coverage Results" MODIFIED="1573516496467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

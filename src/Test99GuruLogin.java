@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import org.testng.Assert;
@@ -18,7 +19,6 @@ import pages.Guru99Login;
 
 public class Test99GuruLogin {
 
-    String driverPath = "C:\\geckodriver.exe";
 
     WebDriver driver;
 
@@ -30,9 +30,9 @@ public class Test99GuruLogin {
 
     public void setup(){
 
-        System.setProperty("webdriver.gecko.driver", driverPath);
+        System.setProperty("webdriver.chrome.driver", "C:/chromedriver/chromedriver.exe");
 
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -78,4 +78,4 @@ public class Test99GuruLogin {
 
         Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
 
-    }
+    }}

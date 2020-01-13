@@ -9,31 +9,28 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class wrongemailtest {
     WebDriver driver;
+    pages.authentication_page objAuth;
     @BeforeClass
     void setup()
     {
        System.setProperty("webdriver.chrome.driver","C:/chromedriver/chromedriver.exe");
        driver=new ChromeDriver();
+       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
        driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
     @Test
     void wrongemailtest()
     {
-        By emailCreate = By.xpath("//*[@id=\"email_create\"]");
-        driver.findElement(emailCreate).sendKeys("wrong email");
-        By submitcreate = By.xpath("//*[@id=\"SubmitCreate\"]/span");
-        driver.findElement(submitcreate).click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"create_account_error\"]/ol/li")));
-        By createaccounterror = By.xpath("//*[@id=\"create_account_error\"]/ol/li");
-        Assert.assertTrue(driver.findElement(createaccounterror).isDisplayed());
+        objAuth = new pages.authentication_page(driver);
+
+        objAuth.setemailCreate("wrong_email");
+
+
     }
-    @AfterClass
-    void tearDown()
-    {
-        driver.quit();
-    }
+
 }
 
