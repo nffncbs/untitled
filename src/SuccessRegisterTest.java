@@ -30,7 +30,7 @@ public class SuccessRegisterTest {
     void successRegisterTest()
     {
         objAuth = new pages.AuthenticationPage(driver);
-        objAuth.setEmailField("111@111.118");
+        objAuth.setEmailField("111@111.121");
         objAuth.clickSubmitCreate();
 
         objAuth.waitUntilClickable();
@@ -53,9 +53,9 @@ public class SuccessRegisterTest {
 
         objAuth.setState();
 
-        objAuth.setCountry();
+  //      objAuth.setCountry();
 
-        objAuth.fillInOther("im gonna click it!");
+        objAuth.fillInOther("111");
 
         objAuth.clickSubmitAccount();
 

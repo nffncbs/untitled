@@ -2,6 +2,7 @@ package pages;
 
 import com.sun.org.apache.xpath.internal.objects.XString;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -70,6 +71,7 @@ public class AuthenticationPage {
     public  void setCountry(){
         Select pickCountry  = new Select(driver.findElement(country));
         pickCountry.selectByVisibleText("United States");
+        driver.findElement(country).sendKeys(Keys.ENTER);
     }
     public  void clickSubmitAccount(){
         driver.findElement(submitAccount).click();
@@ -78,7 +80,7 @@ public class AuthenticationPage {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(firstName));
     }
-    public  void fillInOther(String warnung){
-        driver.findElement(other).sendKeys(warnung);
+    public  void fillInOther(String info){
+        driver.findElement(other).sendKeys(info);
     }
 }
