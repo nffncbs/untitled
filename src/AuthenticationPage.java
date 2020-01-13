@@ -25,6 +25,7 @@ public class AuthenticationPage {
     By submitAccount = By.xpath("//*[@id=\"submitAccount\"]");
     By createAccountError = By.xpath("//*[@id=\"create_account_error\"]/ol/li");
     By other = By.xpath("//*[@id=\"other\"]");
+    By rightLogIn = By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span");
 
 
     public AuthenticationPage(WebDriver driver) {
@@ -82,5 +83,8 @@ public class AuthenticationPage {
     }
     public  void fillInOther(String info){
         driver.findElement(other).sendKeys(info);
+    }
+    public boolean isLogInRight() {
+        return driver.findElement(rightLogIn).isDisplayed();
     }
 }
