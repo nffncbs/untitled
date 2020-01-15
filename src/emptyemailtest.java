@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class EmptyEmailTest {
+public class emptyEmailTest {
     WebDriver driver;
     pages.AuthenticationPage objAuth;
     @BeforeClass

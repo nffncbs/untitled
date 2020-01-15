@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class WrongEmailTest {
+public class wrongEmailTest {
     WebDriver driver;
     pages.AuthenticationPage objAuth;
     @BeforeClass
