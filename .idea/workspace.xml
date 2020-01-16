@@ -57,16 +57,10 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.successRegisterTest">
-    <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Google.GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="DataProviderExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,16 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test99GuruLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SameClassDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.howtodoinjava.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test.Test99GuruLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.howtodoinjava.test.SameClassDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,10 +107,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wrongEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test222" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="wrongEmailTest" />
+      <option name="MAIN_CLASS_NAME" value="test222" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -127,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.successRegisterTest" />
+        <item itemvalue="TestNG.DataProviderExample" />
+        <item itemvalue="TestNG.SameClassDataProvider" />
+        <item itemvalue="TestNG.test222" />
         <item itemvalue="TestNG.emptyEmailTest" />
-        <item itemvalue="TestNG.wrongEmailTest" />
-        <item itemvalue="TestNG.Test99GuruLogin" />
-        <item itemvalue="TestNG.GoogleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +200,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578927415989" />
+    <state x="552" y="177" key="#Project_Structure" timestamp="1579089475587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579089475587" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578928809044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,26 +216,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578936283257" />
-    <state x="655" y="286" key="FileChooserDialogImpl" timestamp="1578998527684">
+    <state x="655" y="286" key="FileChooserDialogImpl" timestamp="1579089474017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578998527684" />
-    <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1578940969811">
+    <state x="655" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579089474017" />
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1579180171310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578940969811" />
-    <state width="1876" height="186" key="GridCell.Tab.0.center" timestamp="1578940969811">
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579180171310" />
+    <state width="1876" height="186" key="GridCell.Tab.0.center" timestamp="1579180171310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578940969811" />
-    <state width="1876" height="186" key="GridCell.Tab.0.left" timestamp="1578940969811">
+    <state width="1876" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579180171310" />
+    <state width="1876" height="186" key="GridCell.Tab.0.left" timestamp="1579180171309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578940969811" />
-    <state width="1876" height="186" key="GridCell.Tab.0.right" timestamp="1578940969811">
+    <state width="1876" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579180171309" />
+    <state width="1876" height="186" key="GridCell.Tab.0.right" timestamp="1579180171310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578940969811" />
+    <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579180171310" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1578998597868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,5 +247,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$successregister.ic" NAME="successregister Coverage Results" MODIFIED="1573516496467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/untitled$C__Users_Rushmore_IdeaProjects_untitled_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1579091097698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

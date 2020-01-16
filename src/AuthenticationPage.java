@@ -64,10 +64,10 @@ public class AuthenticationPage {
     public void setPhoneNumber(String phone){
         driver.findElement(phoneNumber).sendKeys(phone);
     }
-    public void setState()
+    public void setState(String strState)
     {
         Select pickState  = new Select(driver.findElement(state));
-        pickState.selectByVisibleText("Kansas");
+        pickState.selectByVisibleText(strState);
     }
     public  void setCountry(){
         Select pickCountry  = new Select(driver.findElement(country));

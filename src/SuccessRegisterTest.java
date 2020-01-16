@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -26,36 +27,36 @@ public class successRegisterTest {
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
-    @Test
-    void successRegisterTest()
+    @Test(dataProvider="getData")
+    void successRegisterTest(String EmailField, String FirstName, String LastName, String Password, String Address, String City, String Zipcode, String PhoneNumber, String State, String InOther)
     {
         objAuth = new pages.AuthenticationPage(driver);
-        objAuth.setEmailField("111@111.121");
+        objAuth.setEmailField(EmailField);
         objAuth.clickSubmitCreate();
 
         objAuth.waitUntilClickable();
 
         objAuth.setGender();
 
-        objAuth.setFirstName("Rusty");
+        objAuth.setFirstName(FirstName);
 
-        objAuth.setLastName("Shackleford");
+        objAuth.setLastName(LastName);
 
-        objAuth.setPassword("111111");
+        objAuth.setPassword(Password);
 
-        objAuth.setAddress("Camping Fridge Box");
+        objAuth.setAddress(Address);
 
-        objAuth.setCity("Kansas City");
+        objAuth.setCity(City);
 
-        objAuth.setZipcode("23433");
+        objAuth.setZipcode(Zipcode);
 
-        objAuth.setPhoneNumber("2342342342");
+        objAuth.setPhoneNumber(PhoneNumber);
 
-        objAuth.setState();
+        objAuth.setState(State);
 
   //      objAuth.setCountry();
 
-        objAuth.fillInOther("111");
+        objAuth.fillInOther(InOther);
 
         objAuth.clickSubmitAccount();
 
@@ -66,6 +67,29 @@ public class successRegisterTest {
 
 
 
+    }
+    public class User 
+    @DataProvider
+    public Object[][] getData()
+    {
+        //Rows - Number of times your test has to be repeated.
+        //Columns - Number of parameters in test data.
+        Object[][] data = new Object[1][10];
+
+        // 1st row
+        data[0][0] ="111@111.12223";
+        data[0][1] = "Rusty";
+        data[0][2] = "Shackleford";
+        data[0][3] = "111111";
+        data[0][4] = "Camping Fridge Box";
+        data[0][5] = "Kansas City";
+        data[0][6] = "23433";
+        data[0][7] = "2342342342";
+        data[0][8] = "Kansas";
+        data[0][9] = "111";
+
+
+        return data;
     }
 
 
