@@ -56,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.successRegisterTest">
+  <component name="RunManager" selected="TestNG.wrongEmailTest">
     <configuration name="DataProviderExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,8 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+    <configuration name="emptyEmailTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="emptyEmailTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -107,10 +106,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test222" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="wrongEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test222" />
+      <option name="MAIN_CLASS_NAME" value="wrongEmailTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.wrongEmailTest" />
+        <item itemvalue="TestNG.emptyEmailTest (1)" />
         <item itemvalue="TestNG.successRegisterTest" />
         <item itemvalue="TestNG.DataProviderExample" />
         <item itemvalue="TestNG.SameClassDataProvider" />
-        <item itemvalue="TestNG.test222" />
-        <item itemvalue="TestNG.emptyEmailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,22 +219,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579089474017" />
-    <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1579182392458">
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1579182494604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579182392458" />
-    <state width="1876" height="186" key="GridCell.Tab.0.center" timestamp="1579182392458">
+    <state width="1876" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579182494604" />
+    <state width="1876" height="186" key="GridCell.Tab.0.center" timestamp="1579182494603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579182392458" />
-    <state width="1876" height="186" key="GridCell.Tab.0.left" timestamp="1579182392458">
+    <state width="1876" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579182494603" />
+    <state width="1876" height="186" key="GridCell.Tab.0.left" timestamp="1579182494603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579182392458" />
-    <state width="1876" height="186" key="GridCell.Tab.0.right" timestamp="1579182392458">
+    <state width="1876" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579182494603" />
+    <state width="1876" height="186" key="GridCell.Tab.0.right" timestamp="1579182494604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579182392458" />
+    <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579182494604" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1578998597868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
