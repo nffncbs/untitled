@@ -68,7 +68,6 @@ public class successRegisterTest {
 
 
     }
-    public class User 
     @DataProvider
     public Object[][] getData()
     {
@@ -77,7 +76,7 @@ public class successRegisterTest {
         Object[][] data = new Object[1][10];
 
         // 1st row
-        data[0][0] ="111@111.12223";
+        data[0][0] ="111@111.12233";
         data[0][1] = "Rusty";
         data[0][2] = "Shackleford";
         data[0][3] = "111111";
